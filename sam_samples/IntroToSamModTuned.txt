@@ -1,0 +1,3 @@
+<prosody rate="120%" range="+10Hz">My name is <prosody rate="100%" contour="(0%,0%) (50%,-10%) (75%,-20%)">Sam</prosody>.
+I’m a non-binary voice solution for smart assistants developed with input from the <prosody rate="100%">non-binary</prosody> community.
+Accenture and CereProc <prosody rate="100%">believe</prosody> this is an essential step towards having voice assistants that reflect the world’s diversity.</prosody>

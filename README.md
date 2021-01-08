@@ -72,8 +72,8 @@ These assets are licensed under the [Apache 2.0 License](https://www.apache.org/
 
 Andreea Danielescu\
 ​*Future Technologies, Accenture Labs*\
-[andreea.danielescu@accenture.com]((mailto:nonbinary_voice@accenture.com?subject=[GitHub])
+[andreea.danielescu@accenture.com](mailto:nonbinary_voice@accenture.com?subject=[GitHub])
 
 ​Lara Pesce Ares\
 ​*Technology Vision, Accenture Labs*\
-​[lara.pesce.ares@accenture.com]((mailto:nonbinary_voice@accenture.com?subject=[GitHub])
+​[lara.pesce.ares@accenture.com](mailto:nonbinary_voice@accenture.com?subject=[GitHub])

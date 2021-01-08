@@ -1,14 +1,14 @@
 # Sam, the Non-Binary TTS Voice
 
-[Sam](https://bit.ly/36OjUbt) is a non-binary text-to-speech (TTS) voice that can be embedded into any voice assistant software solution. [Accenture Labs](https://www.accenture.com/us-en/about/accenture-labs-index), created Sam in collaboration with [Cereproc](https://www.cereproc.com/). By open-sourcing the components that we used to create this voice we hope to encourage adoption and creation of others like it in the future, so that there will eventually be a diversity of non-binary voices out in the world.
+[Sam](https://bit.ly/36OjUbt) is a non-binary text-to-speech (TTS) voice that can be embedded into any voice assistant software solution. [Accenture Labs](https://www.accenture.com/us-en/about/accenture-labs-index) created Sam in collaboration with [Cereproc](https://www.cereproc.com/). By open-sourcing the components that we used to create this voice, we hope to encourage adoption and creation of others like it in the future so that there will eventually be a diversity of non-binary voices out in the world.
 
 Inclusion and diversity are fundamental to Accenture's culture and core values. As such, we ask that usage of these assets is consistent with [Accenture's commitment to inclusion and diversity](https://www.accenture.com/us-en/about/inclusion-diversity-index) and compliant with Human Rights Laws and Human Rights Principles (as each is defined below).
 
 > "Human Rights Principles" refers to the recognized principles of international human rights as defined in the United Nations Universal Declaration of Human Rights and the United Nations Global Compact.
 
-> “Human Rights Laws” means any applicable laws, regulations, or rules (collectively, “Laws”) that protect human, civil, labor, privacy, political, environmental, security, economic, due process, or similar rights.
->
-> + Where the Human Rights Laws of more than one jurisdiction are applicable or in conflict with respect to the use of these assets, the Human Rights Laws that are most protective of the individuals or groups harmed shall apply.
+> “Human Rights Laws” means any applicable laws, regulations, or rules (collectively, “Laws”) that protect human, civil, labor, privacy, political, environmental, security, economic, due process, or similar rights. Where the Human Rights Laws of more than one jurisdiction are applicable or in conflict with respect to the use of these assets, the Human Rights Laws that are most protective of the individuals or groups harmed shall apply.
+
+Disclaimer: Some of the training audio used contains references to sex, gender, religion, and other potentially graphic or offensive content. This content does not represent the views of Accenture, Accenture Labs, or its employees.
 
 ## Table of Contents
 
@@ -43,13 +43,13 @@ First the recordings were pre-proccessed by lowering the pitch of MM's audio by 
 
 **Prosody Model Voice Data**
 
-We then transferred a "non-binary" speaking style to the voice. This was done using a donor voice, [Avery Smith](https://www.blessedarethebinarybreakers.com/) (AS) and was chosen for their clear, consistent speaking style and for their natural mixture of masculine and feminine speech patterns and intonation. AS also had a large amount of publicly available audio that we could use. In total, we transcribed a total of 3.5 hours of audio from this speaker. The AS audio and the associated transcripts can be found in the prosody_model_voice_data folder. Due to the length of this audio, it is provided here in mp3 format, rather than wav like the voice over recordings.
+We then transferred a "non-binary" speaking style to the voice. This was done using a donor voice, [Avery Smith](https://www.blessedarethebinarybreakers.com/) (AS), and was chosen for their clear, consistent speaking style and for their natural mixture of masculine and feminine speech patterns and intonation. AS also had a large amount of publicly available audio that we could use. In total, we transcribed a total of 3.5 hours of audio from this speaker. The AS audio and the associated transcripts can be found in the prosody_model_voice_data folder. Due to the length of this audio, it is provided here in .mp3 format, rather than .wav like the voice over recordings.
 
 **Prosody Model Voice Quality Transformation**
 
 As this speaker has a lower pitch than our voice over actor, we raised the pitch of their audio by about 7%. Applying a voice quality transformation to both the MM and AS voices ensures they sound closer in pitch to one another. We trained the prosody model for Sam with the the transformed audio dataset from AS. The prosody model trained on AS data is used to "guide" the acoustic prediction model at synthesis time.
 
-One of the challenges with this speaker and the small amount of data used was that the resultant TTS voice sounds more monotone than what is usually considered natural. The use of SSML markup is critical in making the voice sound natural and changing the emotion and intonation of the speech.
+One of the challenges with this speaker and the small amount of data used was that the resultant TTS voice sounds more monotone than what is usually considered natural. The use of SSML markup is critical to making the voice sound natural and changing the emotion and intonation of the speech.
 
 **Average Model Voice Data**
 

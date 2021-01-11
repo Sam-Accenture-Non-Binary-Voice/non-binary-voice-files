@@ -8,7 +8,7 @@ Inclusion and diversity are fundamental to Accenture's culture and core values. 
 
 > “Human Rights Laws” means any applicable laws, regulations, or rules (collectively, “Laws”) that protect human, civil, labor, privacy, political, environmental, security, economic, due process, or similar rights. Where the Human Rights Laws of more than one jurisdiction are applicable or in conflict with respect to the use of these assets, the Human Rights Laws that are most protective of the individuals or groups harmed shall apply.
 
-Disclaimer: Some of the training audio used contains references to sex, gender, religion, and other potentially graphic or offensive content. This content does not represent the views of Accenture, Accenture Labs, or its employees.
+Disclaimer: Some of the training audio used contains references to sex, gender, religion, and potentially graphic or offensive content. This content does not represent the views of Accenture, Accenture Labs, or its employees.
 
 ## Table of Contents
 

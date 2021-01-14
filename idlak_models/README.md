@@ -49,13 +49,13 @@ cd $IDLAKDIR/idlak-egs/tts_tangle_custom/s2
 
 # training with the original voice recordings
 rm -rf voices/en/ga/mmu
-./run.sh --spk mmu --lng en --acc ga --audio_dir $NBVOICE/voice_over_recordings --script_file $MODELDIR/text.xml --srate 16000
+./run.sh --spk mmu --lng en --acc ga --audio_dir $NBVOICE/voice_over_recordings --script_file $NBVOICE/voice_over_recordings/recording_script.xml --srate 16000
 mkdir -p $MODELDIR/voice_over_recordings
 cp -r voices/en/ga/mmu/*  $MODELDIR/voice_over_recordings/.
 
 # training with the voice quality transformed voice
 rm -rf voices/en/ga/mmu
-./run.sh --spk mmu --lng en --acc ga --audio_dir $NBVOICE/vo_voice_quality_transformation --script_file $MODELDIR/text.xml --srate 16000 --stage -2
+./run.sh --spk mmu --lng en --acc ga --audio_dir $NBVOICE/vo_voice_quality_transformation --script_file $NBVOICE/voice_over_recordings/recording_script.xml --srate 16000 --stage -2
 mkdir -p $MODELDIR/vo_voice_quality_transformation
 cp -r voices/en/ga/mmu/*  $MODELDIR/vo_voice_quality_transformation/.
 

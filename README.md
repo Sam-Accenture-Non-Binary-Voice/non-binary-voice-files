@@ -63,7 +63,7 @@ You can hear generated audio samples of Sam in the folder sam_samples. The text 
 
 ## Trained models
 
-Pretrained [Idlak](https://github.com/Idlak) models are available in `idlak_models` please see the [documentation](idlak_model/README.md) there for training and synthesis recipes.
+Pretrained [Idlak](https://github.com/Idlak) models are available in `idlak_models` please see the [documentation](idlak_models/README.md) there for training and synthesis recipes.
 
 ## Licensing
 These assets are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt).

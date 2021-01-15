@@ -17,6 +17,7 @@ Disclaimer: Some of the training audio used contains references to sex, gender, 
 + [**Listen to Sam**](#listen-to-sam)
 + [**Trained models**](#trained-models)
 + [**Licensing**](#licensing)
++ [**How to Contribute**](#how-to-contribute)
 + [**Contacts**](#contacts)
 
 ## Process Overview
@@ -67,6 +68,13 @@ Pretrained [Idlak](https://github.com/Idlak) models are available in `idlak_mode
 
 ## Licensing
 These assets are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt).
+
+## How to Contribute
+We welcome community contributions, especially for new models, improvements to the post-processing, and documentation.
+
+Currently, Idlak models and recipes are provided for Sam as an example. However, these models do not create a high quality TTS voice that would be provided by TacoTron or other open source speech synthesis systems.
+
+If you'd like to create and share new models with TacoTron or any other open source TTS engine, you can do so by opening up a pull request.  
 
 ## Contacts
 

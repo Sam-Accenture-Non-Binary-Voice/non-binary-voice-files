@@ -66,6 +66,25 @@ You can hear some generated audio samples of Sam in the folder sam_samples. Ther
 
 Pretrained [Idlak](https://github.com/Idlak) models are available in `idlak_models` please see the [documentation](idlak_models/README.md) there for training and synthesis recipes. These are provided only as an example of what the training pipeline might look like. For a higher quality voice, we recommend training with TacoTron or other open source speech synthesis system.  
 
+[Coqui](www.coqui.ai) has trained and released a Text-to-Speech model using [Coqui TTS](https://github.com/coqui-ai/tts) and the Sam-Accenture data.
+​
+You can easily demo the Sam 🐸TTS trained model with `tts-server`. Note that the server is not optimized for performance but gives you an easy way to locally interact with the model.
+​
+```bash
+$ pip install tts-server
+# show usage instructions
+$ tts-server -h
+```
+​
+To see which models are currently available for Sam, use the `--list_models` parameter.
+​
+```bash
+# list all models
+$ tts-server --list_models
+# run the chosen model
+$ tts-server --model_name "tts_models/en/sam/tacotron-DDC"
+```
+
 ## Licensing
 These assets are licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
